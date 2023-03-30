@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+}
+header > h1 {
+  margin-top: 2.5em;
+  /* margin-left: 25%; */
+  font-size: 80px;
+  /* margin: auto; */
+  /* text-align: center; */
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+header > .again {
+  /* margin-top: 2em; */
+  position: absolute;
+  top: 2em;
+  width: 25%;
+  margin-left: 1em;
+  font-size: 40px;
+}
+header > .between {
+  margin-top: 2em;
+  position: absolute;
+  top: 10px;
+  width: 50%;
+  left: 60%;
+  margin-left: 2em;
+  font-size: 30px;
+}
+header > .number {
+  margin: auto;
+  display: block;
+  background-color: white;
+  color: black;
+  height: 50%;
+  width: 20%;
+  padding: 10px;
+  font-size: 5em;
+  font-weight: 900;
+  text-align: center;
+  /* height: 25px; */
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+main > .left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5em;
+  margin-top: 5em;
+}
+.left > .guess {
+  font-size: 40px;
+  width: 5em;
+  height: 3em;
+  background-color: transparent;
+  border: 2px solid white;
+  text-align: center;
+  color: white;
+  /* margin-left: 1em; */
+}
+.left > .check {
+  font-size: 40px;
+  margin-top: 10px;
+}
+.right {
+  margin-right: 50px;
+  margin-top: 4.8em;
+}
+.right > .message {
+  font-size: 40px;
+}
+.right > .label-score {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.right > .label-highscore {
+  font-size: 20px;
+}
